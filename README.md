@@ -25,11 +25,12 @@ In order to work with this extension locally, make sure you follow the steps in 
 Then, install dependencies using
 
 ```shell
-npm install
+corepack enable # Enable use of PNPM
+pnpm install
 ```
 
 and run the extension with
 
 ```shell
-npm run dev
+pnpm run dev
 ```
