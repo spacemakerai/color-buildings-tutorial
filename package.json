@@ -7,21 +7,14 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"forma-embedded-view-sdk": "^0.88.0",
+		"forma-embedded-view-sdk": "^0.93.0",
 		"powerful-color-picker": "^2.6.1",
-		"preact": "^10.27.3"
+		"preact": "^10.29.8"
 	},
 	"devDependencies": {
-		"@preact/preset-vite": "^2.10.2",
-		"typescript": "^5.9.3",
-		"vite": "^7.3.2"
+		"@preact/preset-vite": "^2.10.6",
+		"typescript": "^7.0.2",
+		"vite": "^8.2.2"
 	},
-	"pnpm": {
-		"overrides": {
-			"rollup@>=4.0.0 <4.59.0": ">=4.59.0 <5",
-			"picomatch@<2.3.2": ">=2.3.2 <3",
-			"picomatch@>=4.0.0 <4.0.4": ">=4.0.4 <5"
-		}
-	},
-	"packageManager": "pnpm@10.17.0+sha512.fce8a3dd29a4ed2ec566fb53efbb04d8c44a0f05bc6f24a73046910fb9c3ce7afa35a0980500668fa3573345bd644644fa98338fa168235c80f4aa17aa17fbef"
+	"packageManager": "pnpm@11.24.0+sha512.bd27e345e976dcb0be0b7a1228217b049a817e21b1f355c90dbe7dc46671895a8bc1e6d06c24554505ea93ea0b45f489a27ec1bfbc8de6a9659fca0f16fa0000"
 }
